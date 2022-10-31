@@ -9,7 +9,7 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H",
     ":", ";", "<", ">", ".", "?", "/"
 ];
 
-let passwordLength = 15;
+const passwordLength = 15;
 let pass1 = document.getElementById('pass1-el');
 let pass2 = document.getElementById('pass2-el');
 

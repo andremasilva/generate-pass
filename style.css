@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 200vh;
+}
+
+button {
+    color: white;
+    background: green;
+    border: none;
+    padding: 1vh;
+    max-width: fit-content;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+p {
+    background: rgb(63, 70, 38);
+    color: rgb(130, 212, 130);
+    max-width: 18vh;
+    max-height: 10vh;
+    padding: 1vh;
+    text-align: center;
+}
